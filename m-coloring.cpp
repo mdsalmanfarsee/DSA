@@ -34,6 +34,7 @@ bool operation(int v, int color[], int m)
             color[v] = 0;
         }
     }
+    return false;
 }
 
 void graphcoloring(int v, int m)
