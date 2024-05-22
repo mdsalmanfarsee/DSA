@@ -113,7 +113,7 @@ int main()
     pqueue pq;
     pq.push(s, 0);
     int sum = 0;
-    string path = "";
+    // string path = "";
     while (!pq.empty())
     {
         item a = pq.pop();
