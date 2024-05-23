@@ -11,7 +11,10 @@ void printTable(int board[size][size])
     {
         for (int j = 0; j < n; j++)
         {
-            cout << board[i][j] << "  ";
+            if (board[i][j])
+                cout << "Q  ";
+            else
+                cout << "X  ";
         }
         cout << endl;
     }

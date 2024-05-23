@@ -106,7 +106,7 @@ void floyed()
 int main()
 {
     fstream infile;
-    infile.open("graph.txt", ios::in);
+    infile.open("../graph.txt", ios::in);
     if (!infile)
     {
         cout << "file opening error!" << endl;
